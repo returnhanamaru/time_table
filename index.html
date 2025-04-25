@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/border.css">
+  <title>時間割表</title>
+</head>
+<body>
+  <h2>時間割表</h2>
+  <table id="myTable">
+     <tr>
+      <th width="5%"></th>
+      <th width="19%">月</th>
+      <th width="19%">火</th>
+      <th width="19%">水</th>
+      <th width="19%">木</th>
+      <th width="19%">金</th>
+    </tr>
+
+    <tr>
+      <td contenteditable="false">1</td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+    </tr>    
+    <tr>
+      <td contenteditable="false">3</td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+    </tr>
+
+    <tr>
+      <td contenteditable="false">4</td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+    </tr>
+
+    <tr>
+      <td contenteditable="false">5</td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+      <td contenteditable="true"></td>
+    </tr>
+
+  </table>
+
+  <button onclick="saveTableData()">保存</button>
+  <button onclick="displaySavedData()">表示</button>
+  <button onclick="clearTableData()">クリア</button>
+  <!-- JavaScriptファイルを読み込む -->
+  <script src="js/display.js">
+    document.addEventListener('DOMContentLoaded', function() {
+      displaySavedData();
+    });
+  </script>
+  <script src="js/save.js"></script>
+  <script src="js/load.js"></script>
+  <script src="js/clear.js"></script>
+</body>
+</html>
+
