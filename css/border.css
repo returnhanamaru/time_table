@@ -9,10 +9,6 @@ th,td {
   height: 200px;
 }
 
-th {
-  background: blue;
-}
-
 td {
   text-align: center;
   background: white;
@@ -20,8 +16,4 @@ td {
 
 #myTable {
   margin: auto;
-}
-
-body {
-  background-color: #6495ed;
 }
