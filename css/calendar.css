@@ -1,0 +1,5 @@
+#calendar {
+position: relative; /* 今の位置を基準 */
+bottom: 250px; /* 上から10px */
+left: 1100px; /* 左から20px */
+}

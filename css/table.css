@@ -1,19 +1,23 @@
 @charset "UTF-8";
 
+/*枠線*/
 th,td {
-  border: solid 1px;              /* 枠線指定 */
+  border: solid 1px;
 }
 
+/*表の大きさ*/
 #myTable {
   width: 1000px;
   height: 200px;
 }
 
+/*表の中の文字の位置*/
 td {
   text-align: center;
   background: white;
 }
-
+/*
 #myTable {
   margin: auto;
 }
+*/
